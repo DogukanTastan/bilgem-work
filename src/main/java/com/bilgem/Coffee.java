@@ -1,6 +1,8 @@
 package com.bilgem;
-public interface Coffee {
-    String getName();
-    String prepare();
-    int getPrice();
+
+/**
+ * Kahve interface'i, tüm kahve türleri için temel metotları tanımlar.
+ */
+public interface Coffee extends Drink {
+    
 }

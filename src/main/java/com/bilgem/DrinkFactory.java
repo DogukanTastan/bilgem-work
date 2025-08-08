@@ -1,9 +1,14 @@
 package com.bilgem;
 import com.Coffee.*;
 
-public class CoffeeFactory {
+/**
+ * Coffee nesnelerini oluşturan factory sınıfı.
+ * Kullanıcıdan gelen kahve numarasına göre ilgili Coffee
+ * alt sınıfından nesne yaratır.
+ */
+public class DrinkFactory {
 
-    Coffee createCoffee(int num) {
+    public Drink createDrink(int num) {
         if (num == 1) {
             return new Espresso();
         } 
