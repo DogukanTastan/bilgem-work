@@ -6,9 +6,9 @@ import com.Coffee.*;
  * Kullanıcıdan gelen kahve numarasına göre ilgili Coffee
  * alt sınıfından nesne yaratır.
  */
-public class CoffeeFactory {
+public class DrinkFactory {
 
-    public Coffee createCoffee(int num) {
+    public Drink createDrink(int num) {
         if (num == 1) {
             return new Espresso();
         } 

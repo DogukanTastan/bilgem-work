@@ -6,7 +6,7 @@ import java.util.Scanner;
  * Konsol üzerinden kullanıcıdan kahve seçimi alır,
  * sipariş oluşturur ve hazırlanma bilgilerini gösterir.
  */
-public class CoffeeApp {
+public class DrinkApp {
 
     /**
      * Kullanıcıdan kahve seçimi alır, geçersiz girişlerde uyarır,
@@ -27,11 +27,11 @@ public class CoffeeApp {
                 }
                 System.out.println("Teşekkürler kahveniz hazırlanıyor...");
 
-                CoffeeFactory factory = new CoffeeFactory();
-                Coffee coffee = factory.createCoffee(num);
-                if (coffee != null) {
-                    System.out.println(coffee.prepare()+" Afiyet Olsun");
-                    System.out.println("Kahvenizin fiyatı: " + coffee.getPrice() + " TL");
+                DrinkFactory factory = new DrinkFactory();
+                Drink drink = factory.createDrink(num);
+                if (drink != null) {
+                    System.out.println(drink.prepare()+" Afiyet Olsun");
+                    System.out.println("Kahvenizin fiyatı: " + drink.getPrice() + " TL");
                 } else {
                     System.out.println("Lütfen geçerli bir numara giriniz");
                 }

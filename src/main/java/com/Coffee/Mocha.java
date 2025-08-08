@@ -1,8 +1,8 @@
 package com.Coffee;
 import com.bilgem.Coffee;
 /**
- * public class Mocha implements Coffee {
- kahvesini temsil eden sınıf.
+ * 
+ * Mocha kahvesini temsil eden sınıf.
  * {@link Coffee} interface ini uygular.
  */
 public class Mocha implements Coffee {

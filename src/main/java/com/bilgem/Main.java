@@ -9,7 +9,7 @@ package com.bilgem;
  */
 public class Main {
     public static void main(String[] args) {
-        CoffeeApp app = new CoffeeApp();   // işlemleri başlatan CoffeeApp sınıfı
+        DrinkApp app = new DrinkApp();   // işlemleri başlatan CoffeeApp sınıfı
         app.CoffeeMachine();
     }
 }

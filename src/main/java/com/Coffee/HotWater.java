@@ -1,10 +1,11 @@
 package com.Coffee;
 import com.bilgem.Coffee;
+import com.bilgem.NonCoffeeDrink;
 /**
  * Sıcak suyu temsil eden sınıf.
- * {@link Coffee} interface ini uygular.
+ * {@link NonCoffeeDrink} interface ini uygular.
  */
-public class HotWater implements Coffee {
+public class HotWater implements NonCoffeeDrink {
     /**
      * Suyun Adını döner.
      * 
@@ -12,16 +13,16 @@ public class HotWater implements Coffee {
      */
     @Override
     public String getName() {
-        return "HotWater";
+        return "Hot Water";
     }
    /**
      *  Suyun hazırlanma açıklamasını döner.
      * 
-     * @return Kahve hazırlanma açıklaması
+     * @return Su hazırlanma açıklaması
      */
     @Override
     public String prepare() {
-        return "HotWater seçtiniz içeceğiniz 5x Hot Water içermektedir.";
+        return "Hot Water seçtiniz içeceğiniz 5x Hot Water içermektedir.";
     }
 /**
      * Suyun fiyatını TL cinsinden döner.
