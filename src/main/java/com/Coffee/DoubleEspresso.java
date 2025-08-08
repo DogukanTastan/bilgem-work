@@ -1,3 +1,6 @@
+package com.Coffee;
+import com.bilgem.Coffee;
+
 public class DoubleEspresso implements Coffee {
 
     @Override
@@ -7,13 +10,15 @@ public class DoubleEspresso implements Coffee {
 
     @Override
     public String prepare() {
-        return "DoubleEspresso seçtiniz içeceiğiniz 2x Espresso içermektedir.";
+        return "DoubleEspresso seçtiniz içeceğiniz 2x Espresso içermektedir.";
     }
 
     @Override
     public int getPrice() {
         return 27;
     }
+
+  
     
     
 }

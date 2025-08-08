@@ -1,3 +1,6 @@
+package com.Coffee;
+import com.bilgem.Coffee;
+
 public class HotWater implements Coffee {
 
     @Override
@@ -14,6 +17,8 @@ public class HotWater implements Coffee {
     public int getPrice() {
         return 5;
     }
+
+    
     
     
 }

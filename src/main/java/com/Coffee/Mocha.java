@@ -1,3 +1,5 @@
+package com.Coffee;
+import com.bilgem.Coffee;
 
 public class Mocha implements Coffee {
 
@@ -15,6 +17,4 @@ public class Mocha implements Coffee {
     public int getPrice() {
         return 32;
     }
-    
-    
 }
