@@ -3,7 +3,7 @@ import com.Coffee.*;
 
 public class CoffeeFactory {
 
-    Coffee createCoffee(int num) {
+    public Coffee createCoffee(int num) {
         if (num == 1) {
             return new Espresso();
         } 
