@@ -1,5 +1,4 @@
 package com.Coffee;
-import com.bilgem.Coffee;
 import com.bilgem.NonCoffeeDrink;
 /**
  * Sıcak suyu temsil eden sınıf.

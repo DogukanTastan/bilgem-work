@@ -1,4 +1,5 @@
 package com.bilgem;
+import java.util.InputMismatchException;
 import java.util.Scanner;
 
 /**
@@ -13,7 +14,7 @@ public class DrinkApp {
      * seçilen kahvenin fiyatını ve hazırlanma açıklamasını gösterir.
      * Program "0" tuşlandığında sonlanır.
      */
-    public void CoffeeMachine() {
+    public void coffeeMachine() {
         Scanner scanner = new Scanner(System.in); // Kullanıcıdan input almak icin scanner nesnesi
 
         while (true) {
@@ -36,8 +37,12 @@ public class DrinkApp {
                     System.out.println("Lütfen geçerli bir numara giriniz");
                 }
             } 
-            catch (Exception e) {
+            catch (NumberFormatException e) {
                 System.out.println("Lütfen geçerli bir format giriniz");
+                scanner.nextLine(); // Hatalı inputu temizle
+            }
+            catch (InputMismatchException e) {
+                System.out.println("Lütfen sayı giriniz");
                 scanner.nextLine(); // Hatalı inputu temizle
             }
         }

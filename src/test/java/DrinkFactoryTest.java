@@ -37,5 +37,21 @@ public class DrinkFactoryTest {
         //interface kontrolü 
         assertTrue(hotWater instanceof com.bilgem.NonCoffeeDrink, "HotWater should be instance of NonCoffeeDrink");
     }
+
+
+    @Test
+    public void testAllDrinkTypes() {
+        DrinkFactory factory = new DrinkFactory();
+        
+        // Tüm kahve türleri için test
+        for (int i = 1; i <= 7; i++) {
+            Drink drink = factory.createDrink(i);
+            assertNotNull(drink);
+            assertTrue(drink.getPrice() > 0);
+            assertNotNull(drink.getName());
+            assertNotNull(drink.prepare());
+        }
+    }
+
 }
 
