@@ -1,0 +1,53 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+-classpath
+'C:/Users/Dogukan/.m2/repository/org/reflections/reflections/0.10.2/reflections-0.10.2.jar;C:/Users/Dogukan/.m2/repository/org/javassist/javassist/3.28.0-GA/javassist-3.28.0-GA.jar;C:/Users/Dogukan/.m2/repository/com/google/code/findbugs/jsr305/3.0.2/jsr305-3.0.2.jar;C:/Users/Dogukan/.m2/repository/org/slf4j/slf4j-api/1.7.32/slf4j-api-1.7.32.jar'
+-encoding
+'UTF-8'
+-protected
+-source
+'17'
+-sourcepath
+'C:/Users/Dogukan/Desktop/bilgem/bilgem-work/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Dogukan/Desktop/bilgem/bilgem-work/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'bilgem 1.0-SNAPSHOT API'
+-use
+-version
+-windowtitle
+'bilgem 1.0-SNAPSHOT API'
+com.bilgem
+C:\Users\Dogukan\.m2\repository\org\reflections\reflections\0.10.2\reflections-0.10.2.jar = 1754672998937
+C:\Users\Dogukan\.m2\repository\org\javassist\javassist\3.28.0-GA\javassist-3.28.0-GA.jar = 1754672999353
+C:\Users\Dogukan\.m2\repository\com\google\code\findbugs\jsr305\3.0.2\jsr305-3.0.2.jar = 1742315293419
+C:\Users\Dogukan\.m2\repository\org\slf4j\slf4j-api\1.7.32\slf4j-api-1.7.32.jar = 1662398945968
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\src\main\java = 1754680322296
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\allclasses-index.html = 1754768506884
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\allpackages-index.html = 1754768506890
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\copy.svg = 1754768506971
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\element-list = 1754768506695
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\help-doc.html = 1754768506957
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\index-all.html = 1754768506939
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\index.html = 1754768506949
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\link.svg = 1754768506976
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\member-search-index.js = 1754768506905
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\module-search-index.js = 1754768506893
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\overview-tree.html = 1754768506847
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\package-search-index.js = 1754768506896
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\script.js = 1754768506966
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\search-page.js = 1754768506987
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\search.html = 1754768506945
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\search.js = 1754768506983
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\stylesheet.css = 1754768506963
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\tag-search-index.js = 1754768506909
+C:\Users\Dogukan\Desktop\bilgem\bilgem-work\target\reports\apidocs\type-search-index.js = 1754768506898
