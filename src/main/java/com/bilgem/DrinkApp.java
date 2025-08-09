@@ -13,7 +13,6 @@ public class DrinkApp {
     public void coffeeMachine() {
 
         OrderService orderService = new OrderService();
-
         MenuService menuService = new MenuService(orderService);
         menuService.displayMenu();
 
