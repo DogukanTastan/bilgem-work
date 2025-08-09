@@ -42,16 +42,4 @@ public class CoffeeBuilder implements DrinkBuilder {
         
         return new CustomDrink(name, price, new ArrayList<>(ingredients));
     }
-    
-    /**
-     * Builder'ı temizler ve yeni bir içecek için hazırlar.
-     * 
-     * @return Temizlenmiş builder instance
-     */
-    public CoffeeBuilder reset() {
-        this.name = null;
-        this.price = 0;
-        this.ingredients.clear();
-        return this;
-    }
 }

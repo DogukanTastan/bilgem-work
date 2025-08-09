@@ -5,30 +5,14 @@ package com.bilgem;
  * Builder pattern kullanarak içecek üretimi sağlar.
  */
 public class DrinkFactory {
-
-    private final DrinkBuilder builder; // içecek oluşturacak builder nesnesi
-    
-    /**
-     * DrinkFactory constructor.
-     * CoffeeBuilder ile initialize edilir.
-     */
-    public DrinkFactory() {
-        this.builder = new CoffeeBuilder(); // constructorda initialize ediliyor
-    }
-    
     /**
      * Kullanıcının seçimine göre içecek oluşturur.
-     * 
      * @param num Kullanıcının seçtiği içecek numarası
      * @return Oluşturulan Drink nesnesi veya null (geçersiz seçim)
      */
     public Drink createDrink(int num) {
+        DrinkBuilder builder =new CoffeeBuilder();
         try {
-            // Builder'ı temizle (yeniden kullanım için)
-            if (builder instanceof CoffeeBuilder) {
-                ((CoffeeBuilder) builder).reset();
-            }
-            
             switch (num) {
                 case 1: // Espresso
                     return builder.setName("Espresso")
