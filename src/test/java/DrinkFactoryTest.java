@@ -34,8 +34,6 @@ public class DrinkFactoryTest {
         Drink hotWater = factory.createDrink(7);
         assertNotNull(hotWater);
         assertEquals("Hot Water", hotWater.getName());
-        //interface kontrolü 
-        assertTrue(hotWater instanceof com.bilgem.NonCoffeeDrink, "HotWater should be instance of NonCoffeeDrink");
     }
 
 

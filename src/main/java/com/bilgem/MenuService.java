@@ -1,14 +1,13 @@
 package com.bilgem;
-
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class MenuService {
-    Scanner scanner = new Scanner(System.in); // Kullanıcıdan input almak icin scanner nesnesi
-    private final OrderService orderService;
+    Scanner scanner = new Scanner(System.in);  // Kullanıcıdan input almak icin scanner nesnesi
+    private final OrderService orderService;   // Dependency Injection için OrderService nesnesi
 
     public MenuService(OrderService orderService) {
-        this.orderService = orderService;
+        this.orderService = orderService;  // Constructor'da OrderService nesnesi inject ediliyor
     }
 
     public void displayMenu() {
@@ -21,8 +20,8 @@ public class MenuService {
                 if (num == 0) {
                     break;
                 }
-               
-                orderService.processOrder(num);  
+
+                orderService.processOrder(num);  // Kullanıcıdan alınan tercih OrderService e gönderiliyor.
             } 
             catch (NumberFormatException e) {
                 System.out.println("Lütfen geçerli bir format giriniz");
