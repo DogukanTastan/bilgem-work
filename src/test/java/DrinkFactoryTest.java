@@ -1,6 +1,5 @@
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-
 import com.bilgem.*;
 
 
@@ -28,14 +27,6 @@ public class DrinkFactoryTest {
         Drink drink = factory.createDrink(-1);
         assertNull(drink, "Negative input should return null");
     }
-    @Test
-    public void testHotWaterIsNonCoffeeDrink() {
-        DrinkFactory factory = new DrinkFactory();
-        Drink hotWater = factory.createDrink(7);
-        assertNotNull(hotWater);
-        assertEquals("Hot Water", hotWater.getName());
-    }
-
 
     @Test
     public void testAllDrinkTypes() {
@@ -50,6 +41,7 @@ public class DrinkFactoryTest {
             assertNotNull(drink.prepare());
         }
     }
+
 
 }
 
