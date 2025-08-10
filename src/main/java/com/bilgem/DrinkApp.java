@@ -1,8 +1,6 @@
 package com.bilgem;
 /**
  * Kahve sipariş uygulamasının ana sınıfı.
- * Konsol üzerinden kullanıcıdan kahve seçimi alır,
- * sipariş oluşturur ve hazırlanma bilgilerini gösterir.
  */
 public class DrinkApp {
     /**

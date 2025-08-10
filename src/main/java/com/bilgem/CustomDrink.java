@@ -1,7 +1,6 @@
 package com.bilgem;
 import java.util.List;
 
-
 /**
  * Builder pattern ile oluşturulan içecek sınıfı.
  */

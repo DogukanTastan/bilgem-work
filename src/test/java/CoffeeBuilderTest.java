@@ -6,7 +6,7 @@ public class CoffeeBuilderTest {
 
     @Test
     void testCreateEspresso() {
-         DrinkBuilder builder =new CoffeeBuilder();
+        DrinkBuilder builder =new CoffeeBuilder();
         Drink espresso = builder
             .setName("Espresso")
             .setPrice(20)
