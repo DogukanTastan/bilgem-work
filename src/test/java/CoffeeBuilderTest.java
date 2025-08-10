@@ -1,10 +1,22 @@
 import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import com.bilgem.*;
 
 public class CoffeeBuilderTest {
+
+    @Test
+    void testCreateEspresso() {
+        DrinkBuilder builder =new CoffeeBuilder();
+        Drink espresso = builder
+            .setName("Espresso")
+            .setPrice(20)
+            .addIngredient("Espresso", 1)
+            .build();
+        
+        assertEquals("Espresso", espresso.getName());
+        assertEquals(20, espresso.getPrice());
+        assertTrue(espresso.prepare().contains("1x Espresso"));
+    }
 
     @Test
     void testSpecialCharactersInName() {
@@ -34,7 +46,6 @@ public class CoffeeBuilderTest {
 
      
     @Test
-  
     void testMaximumPrice() {
         DrinkBuilder builder =new CoffeeBuilder();
         Drink drink = builder
@@ -45,6 +56,7 @@ public class CoffeeBuilderTest {
         
         assertEquals(Integer.MAX_VALUE, drink.getPrice());
     }
-    
-    
+
+
+
 }

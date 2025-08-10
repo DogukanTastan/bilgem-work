@@ -9,8 +9,8 @@ package com.bilgem;
  */
 public class Main {
     public static void main(String[] args) {
+
         DrinkApp app = new DrinkApp();   // işlemleri başlatan CoffeeApp sınıfı
-        
         app.coffeeMachine();
     }
 }
